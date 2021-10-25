@@ -1,12 +1,6 @@
 import React, { ReactNode, useEffect, useState } from 'react';
 import Head from 'next/head';
 import styled from 'styled-components';
-import Router from 'next/router';
-
-Router.events.on('routeChangeComplete', (url) => {
-  // @ts-ignore
-  window.analytics.page(url)
-})
 
 interface IProps {  }
 
