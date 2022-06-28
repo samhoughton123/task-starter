@@ -2,9 +2,8 @@ import React, { ReactNode, useEffect, useState } from 'react';
 import Head from 'next/head';
 import styled from 'styled-components';
 
-interface IProps {  }
 
-export default function Layout(props: React.PropsWithChildren<IProps>) {
+export default function Layout(props) {
 
   return (
     <div>

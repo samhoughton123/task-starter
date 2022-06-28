@@ -5,7 +5,6 @@ export default function Home() {
   
   return (
     <Wrapper>
-      Hello World
     </Wrapper>
   )
 }
