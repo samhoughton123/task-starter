@@ -10,10 +10,6 @@ export default function Layout(props) {
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="preload" href="/fonts/domaine-display-narrow-web-medium.woff2" as="font" crossOrigin="" />
-        <link rel="preload" href="/fonts/domaine-display-narrow-web-regular-italic.woff2" as="font" crossOrigin="" />
-        <link rel="preload" href="/fonts/Garnett-Medium.woff2" as="font" crossOrigin="" />
-        <link rel="preload" href="/fonts/Garnett-Regular.woff2" as="font" crossOrigin="" />
       </Head>
       <Wrapper>
         { props.children }
